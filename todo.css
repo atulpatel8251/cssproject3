@@ -1,0 +1,173 @@
+body{
+    background-color: darkgrey;
+}
+.border1{
+    background-color: white;
+}
+.a {
+    color: black;
+    font-size: 30px;
+    margin-left: 70px;
+}
+
+.b {
+    color: rgb(0, 225, 255);
+    font-size: 30px;
+    margin-right: 70px;
+}
+
+.c {
+ margin-left: 800px;
+ display: flex;
+}
+
+
+.lin {
+    text-decoration: none;
+    color: rgba(20, 19, 19, 0.842);
+    margin-left: 10px;
+    margin-top: 20px;
+    
+
+
+}
+.box1
+{
+    border: 1px solid white;
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    margin-left: 50px;
+    display: flex;
+    color: skyblue;
+    font-size: 17px;
+    display: inline-block;
+    
+}
+.box3{ border: 1px solid white;
+    background-color: white;
+    width: 230px;
+    height: 230px;
+    margin-left: 370px;
+    
+    color: skyblue;
+    font-size: 17px;
+    display: inline-block;}
+
+.p {
+    border: 1px solid grey;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: -250px;
+    background-color: white;
+    
+    position: fixed;
+
+}
+.plusHe{ background-color: rgba(20, 19, 19, 0.842);
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin-left: -500px;
+    }
+    .at{
+        margin-left: -450px;
+        margin-top:-15px
+    }
+.lea {
+    border: 1px solid grey;
+    height: 20px;
+    width: 260;
+    border-radius: 10px;
+    background-color: rgb(194, 185, 185);
+    color: rgb(36, 34, 34);
+
+}
+.add {
+    border: 1px solid grey;
+    height: 12px;
+    width: 100px;
+    margin-left: 175px;
+    margin-top: 15px;
+    padding: 5px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    position: absolute;
+    display: flex;
+}
+.tyty{
+    margin-bottom: px;
+    text-align: center;
+}
+.who {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin :0 auto;
+    padding-top: 3px;
+    padding-left: 10px;
+    
+}
+.text{
+    color: silver;
+    text-decoration: line-through;
+}
+.texts{
+    color: silver;
+    
+}
+.center{
+    text-align: center;
+    align-items: center;
+    
+}
+
+
+.whi {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    margin :0 auto;
+    padding-top: 6px;
+    padding-left: 10px;
+    
+}
+.who{ color: white;
+    text-decoration: none;
+    display: flex;
+    margin :0 auto;
+    padding-top: 2px;
+    padding-left: 5px;}
+
+.plusHead{
+    background-color: rgb(92, 92, 238);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    
+
+}
+
+.plusHea{
+    background-color: rgb(92, 92, 238);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    margin-left: -180px;
+}
+.ttt
+{margin-left: 10px;
+margin-top: 5px;
+}
+
+@media screen and (min-width:300px)and (max-width:600px){
+    .border1{
+        flex-direction: column;
+    }
+    
+}
